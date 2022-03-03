@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+
+.first-screen{
+    background: url("../img/first-bg.jpg") center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    width: 100%;
+    min-height: 800px;
+
+    justify-content:center;
+    
+    
+}
+
+.container{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/*Header*/
+.first-inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+
+.first-address{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #ffffff;
+    
+}
+
+.first-num{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF; 
+}
+
+/*Menu*/
+.menu{
+    margin-top: 20px;
+    border: solid 1px #ffffff;
+    border-left: none;
+    border-right: none;  
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_link{
+    width: 25%;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    text-align: center;
+
+    border-left: solid 1px #ffffff;
+
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu_link:hover{
+    color: #998431;
+
+    transition: color .2s linear;
+}
+
+.menu_link:first-child{
+    border-left: none;
+}
+
+.menu_link:last-child{
+    border-right: none;
+}
+
+/*Buttons*/
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+}
+
+.btn-1{
+    background: #99862a;
+    color: #ffffff;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    padding: 15px 30px;
+    margin: 0px 15px;
+}
+
+.btn-2{
+    background: #99862a;
+    color: #ffffff;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    padding: 15px 30px;
+    margin: 0px 15px;
+}
+
+.btn-1:hover{
+    transition: 0.6s;
+    color: #99862a;
+    background: #ffffff;  
+}
+.btn-2:hover{
+    transition: 0.6s;
+    color: #99862a;
+    background: #ffffff;
+}
