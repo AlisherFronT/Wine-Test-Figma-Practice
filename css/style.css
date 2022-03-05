@@ -286,15 +286,25 @@ body{
   
 }
 
+.wine_title_col{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #282828;
+}
+
 .wine_td{
     padding: 26px 24px;
     border-left: 2px solid #998431;
-    border-top: 2px solid #998431; 
+    border-top: 2px solid #998431;
 }
 
 .wine_td:first-child{
-    border-left: none;
+    border-left: none; 
 }
+
 
 .wine_column_text{
     font-style: normal;
@@ -363,6 +373,7 @@ body{
     align-items: center;
     background-color: #282828;
     padding: 3% 15%;
+    
 }
 
 .container_three{
@@ -370,17 +381,18 @@ body{
     padding: 3% 15%;
     margin-top: 8%;
     margin-bottom: 6%;
-    border: 3px solid #C4C4C4;
+    
+    
 }
 
 .wine_form_title{
-    font-size: 36px;
+    font-size: 30px;
     font-family: 'Playfair Display', serif;  
     line-height: 150%;
     text-align: center;
     color: #ffffff;
 
-    margin-top: -16%;
+    margin-top: -9%;
     margin-bottom: 8%;
     background-color: #282828;
     padding: 0 10%;
@@ -417,29 +429,33 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    z-index: 1;
+    
 }
+
 
 .grape{
     position: absolute;
-    width: 120px;
-    left: 11%;
-    margin-top: -5%;
-    z-index: 3;
-    
+    left: 7%;
+    margin-top: -7%;
+    width: 160px;
+    background-color: #282828;  
 }
 
 .barrel{
     position: absolute;
-    width: 110px;
-    right: 10%;
-    margin-top: -6%;
-    z-index: 3;
+    right: 9%;
+    margin-top: -7%;
+    width: 140px;
+    background-color: #282828;
+      
 }
 
 .container_three{
-    border: 1px solid #ffffff;
+    border: 3px solid #C4C4C4;
+    box-sizing: border-box;
 }
+
+/*Input*/
 
 .wine_form_input{
     width: 48%;
@@ -481,6 +497,7 @@ body{
     justify-content: center;
 
     margin-top: 10%;
+    margin-bottom: 10%;
     width: 100%;
 }
 
@@ -491,7 +508,7 @@ body{
     border: 1px solid #FFFFFF;
     color: #ffffff;
 
-    background: #99862a;
+    
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 16px;
