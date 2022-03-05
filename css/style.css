@@ -42,7 +42,7 @@ body{
     font-weight: 500;
     font-size: 13px;
     line-height: 150%;
-    color: #FFFFFF; 
+    color: #ffffff; 
 }
 
 /*Menu*/
@@ -174,7 +174,7 @@ body{
     font-size: 36px;
     line-height: 150%;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 
     font-family: "Playfair Display";
     font-style: normal;
@@ -198,7 +198,7 @@ body{
     
     font-weight: normal;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 
     font-family:"Montserrat";
     font-style: normal;
@@ -249,7 +249,7 @@ body{
 }
 
 .first_column_title{
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-size: 16px;
     line-height: 150%;
@@ -300,7 +300,6 @@ body{
     font-style: normal;
     font-size: 14px;
     line-height: 150%;
-    font-family: "Montserrat";
     color: #282828;
 }
 
@@ -315,7 +314,7 @@ body{
     background: #99862a;
     color: #ffffff;
 
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -353,4 +352,161 @@ body{
 .wine_column_big{
     width: 100%;
     margin-bottom: 6%;
+}
+
+/*Блок №4*/
+
+.wine_form{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282828;
+    padding: 3% 15%;
+}
+
+.container_three{
+    background-color: #282828;
+    padding: 3% 15%;
+    margin-top: 8%;
+    margin-bottom: 6%;
+    border: 3px solid #C4C4C4;
+}
+
+.wine_form_title{
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;  
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+
+    margin-top: -16%;
+    margin-bottom: 8%;
+    background-color: #282828;
+    padding: 0 10%;
+}
+
+
+.wine_form_text{
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 2%;
+}
+
+.wine_form_line{
+    content: "";
+    width: 118px;
+    background-color: #FFFFFF;
+    height: 1px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin: 0 auto;
+}
+
+/*Form*/
+
+.contact_form{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.grape{
+    position: absolute;
+    width: 120px;
+    left: 11%;
+    margin-top: -5%;
+    z-index: 3;
+    
+}
+
+.barrel{
+    position: absolute;
+    width: 110px;
+    right: 10%;
+    margin-top: -6%;
+    z-index: 3;
+}
+
+.container_three{
+    border: 1px solid #ffffff;
+}
+
+.wine_form_input{
+    width: 48%;
+    height: 30px;
+
+    background-color: #282828;
+    color: #FFFFFF;
+    border: 0;
+    border-bottom: 2px solid #C4C4C4;
+
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    outline: none;
+}
+
+.wine_form_input-big{
+    width: 100%;
+    height: 30px;
+    margin-top: 8%;
+
+    background-color: #282828;
+    color: #FFFFFF;
+    border: 0;
+    border-bottom: 2px solid #C4C4C4;
+
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    outline: none;
+}
+
+/*Button*/
+
+.wine_form_button{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10%;
+    width: 100%;
+}
+
+.wine_form_btn{
+    width: 100%;
+
+    background-color: #282828;
+    border: 1px solid #FFFFFF;
+    color: #ffffff;
+
+    background: #99862a;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin: 0px 15px;
+}
+
+.wine_form_btn:hover{
+    transition: 0.6s;
+    color: #99862a;
+    background: #ffffff; 
 }
