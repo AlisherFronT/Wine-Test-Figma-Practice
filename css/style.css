@@ -6,11 +6,13 @@ body{
 
 
 .first-screen{
-    background: url("../img/first-bg.jpg") center no-repeat;
+    background: url("../img/first-bg.jpg") ;
     background-size: cover;
     -webkit-background-size: cover;
     width: 100%;
     min-height: 800px;
+    
+     
 
     justify-content:center;  
 }
@@ -527,3 +529,113 @@ body{
     color: #99862a;
     background: #ffffff; 
 }
+
+/*Footer*/
+
+.footer{
+    display: block;
+    background: #998431;
+    padding: 3% 0;
+}
+
+.container_ftr{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%; 
+}
+
+/*nav 1*/
+
+.footer_nav_big{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px #ffffff;
+    border-left: none;
+    border-right: none;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.footer_big_link{
+    text-decoration: none;
+    color: #ffffff;
+
+    padding-top: 11px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.footer_big_link:hover{
+    color: #282828;
+    transition: color 0.2s linear;
+}
+
+/*nav 2*/
+
+.footer_nav_little{
+    border: solid 1px #ffffff;
+    
+    padding-left: 4%;
+    padding-right: 4%;
+    border-left: none;
+    border-right: none;
+}
+
+.nav_lit{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+    
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    color: #ffffff;
+}
+
+.footer_lit_name{
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    width: auto;
+    border-left: none;
+    text-decoration: none; 
+ 
+}
+
+.footer_lit_num{
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    width: auto;
+    text-decoration: none;
+    
+}
+
+.footer_lit_icons{
+    display: inline-block;
+    justify-content: space-between;
+    width: 100px;
+    color: #ffffff;
+}
+
+
+.footer_lit_site{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+   
+}
+
+
