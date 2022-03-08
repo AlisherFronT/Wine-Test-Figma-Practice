@@ -6,21 +6,22 @@ body{
 
 
 .first-screen{
-    background: url("../img/first-bg.jpg") ;
-    background-size: cover;
-    -webkit-background-size: cover;
+    height: 880px;
     width: 100%;
-    min-height: 800px;
-    
-     
-
-    justify-content:center;  
+    justify-content: center;
+    background: linear-gradient(180deg, #282828 0%, rgba(40, 40, 40, 0) 100%), url("../img/first-bg.jpg") center no-repeat;
+    background-size: cover;
 }
+
+
+    
+
+
 
 .container{
     width: 80%;
     margin-right: 10%;
-    margin-left: 10%;
+    margin-left: 10%;   
 }
 
 /*Header*/
@@ -439,7 +440,7 @@ body{
     position: absolute;
     left: 7%;
     margin-top: -7%;
-    width: 160px;
+    width: 180px;
     background-color: #282828;  
 }
 
