@@ -13,11 +13,6 @@ body{
     background-size: cover;
 }
 
-
-    
-
-
-
 .container{
     width: 80%;
     margin-right: 10%;
@@ -113,7 +108,7 @@ body{
     text-decoration: none;
 
     padding: 15px 30px;
-    margin: 0px 15px;
+    margin: 10px 15px;
 }
 
 .btn-2{
@@ -131,7 +126,7 @@ body{
     text-decoration: none;
 
     padding: 15px 30px;
-    margin: 0px 15px;
+    margin: 10px 15px;
 }
 
 .btn-1:hover{
@@ -364,7 +359,7 @@ body{
 
 .wine_column_big{
     width: 100%;
-    margin-bottom: 6%;
+    margin-bottom: 10%;
 }
 
 /*Блок №4*/
@@ -634,9 +629,210 @@ body{
     font-size: 13px;
     line-height: 150%;
     color: #FFFFFF;
-    text-decoration: none;
-    
-   
+    text-decoration: none;  
 }
+
+/*Media*/
+
+@media (max-width:1300px) {
+
+
+}
+
+
+@media (max-width:900px){
+
+    /*Buttons*/
+    .buttons{
+        margin-top: 80%;
+    }
+
+
+    /*Wine Info Block*/
+    .wine_title{
+        font-size: 26px;
+    }
+
+    .wine_text{
+        font-size: 18px;
+    }
+
+    .wine_img{
+        margin-top: 4%;
+    }
+
+
+    /*Wine Collection*/
+    .wine_collection{
+        flex-direction: column;  
+    }
+
+    .first_column_title{
+        text-align: center;
+    }
+
+    .first_column_suptitle{
+        text-align: center;
+    }
+
+    .first_column_suptitle::after{
+        margin: 0 auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .wine_columns{
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .first_column{
+        width: 100%;
+    }
+
+    .second_column{
+        order: -1;
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    .wine_button{
+        justify-content: center;
+    }
+
+    /*Wine_Form*/
+    .grape{
+        display: none;
+    }
+    .barrel{
+        display: none;
+    }
+
+    .wine_form_title{
+        font-size: 28px;
+        margin-top: -10%;
+    }
+
+    .wine_form_text{
+        margin-top: 5%;
+        font-size: 17px;
+    }
+
+    .wine_form_input{
+        width: 100%;
+        margin-top: 8%;
+    }
+
+    /*Footer*/
+    .footer_nav_big{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .nav_lit{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width:430px){
+
+    /*Burger menu*/
+    .menu_toggle{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        margin-top: 20px;
+    }
+
+    .menu_toggle::before,
+    .menu_toggle::after{
+        content: "";
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 115px;
+    }
+
+    .menu_toggle::before{
+        top: 0;
+    }
+
+    .menu_toggle::after{
+        bottom: 0;
+    }
+
+    .menu_toggle_item{
+        position: absolute;
+        background-color: #fff;
+        left: 115px;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+
+    /*First Screen*/
+   .first-inner{
+    flex-direction: column;
+    align-items: center;
+   }
+   
+    /*Menu*/
+    .menu{
+        display: none;
+    }
+
+    /*Buttons*/
+    .buttons{
+        flex-direction: column;
+        width: 90%;
+        margin-top: 130%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /*Wine Info*/
+    .wine_title{
+        font-size: 17px;
+    }
+
+    .wine_text{
+        font-size: 13px;
+    }
+
+    .wine_img{
+        margin-top: 1%;
+        width: 60px;
+        height: 110px;
+    }
+
+    /*Wine Form*/
+    .wine_form_title{
+        font-size: 16px;
+    }
+
+    .wine_form_text{
+        font-size: 14px;
+    }
+
+    /*Wine Collection*/
+    .first_column_suptitle{
+        font-size: 23px;
+    }
+
+
+}
+
+
 
 
